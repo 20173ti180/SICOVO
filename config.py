@@ -6,14 +6,14 @@ class Config:
 class DevelopmentConfig(Config):
     
     DEBUG = True
-    MYSQL_HOST='db-sicovo2.cqzjefqs7sil.us-east-1.rds.amazonaws.com'
+    MYSQL_HOST='bd-sicovo.cxyduq6xkdsy.us-east-1.rds.amazonaws.com'
     MYSQL_USER='sicovo'
     MYSQL_PASSWORD='sicovo12'
     MYSQL_DB='tienda'
     MAIL_SERVER = 'smtp.googlemail.com'
     MAIL_PORT = 587
     MAIL_USE_TLS = True
-    MAIL_USERNAME = '20213tn113@utez.edu.mx'
+    MAIL_USERNAME = '20173ti180@utez.edu.mx'
     MAIL_PASSWORD = config('MAIL_PASSWORD')
     
 config = {
